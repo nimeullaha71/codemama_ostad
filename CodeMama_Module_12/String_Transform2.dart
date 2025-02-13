@@ -10,8 +10,8 @@ void main() {
     String part = input.substring(i, (i + 2 <= input.length) ? i + 2 : input.length);
     result += part;
 
-    // Add 'x' if there are at least two more characters after this part
-    if (i + 2 < input.length - 1) {
+    // Add 'x' if there are at least two more characters after this point
+    if (i + 2 < input.length ) {
       result += 'x';
     }
   }
