@@ -12,7 +12,9 @@ void main() {
 
     // Add 'x' if there are at least two more characters after this point
     if (i + 2 < input.length ) {
+      
       result += 'x';
+
     }
   }
 
