@@ -8,6 +8,7 @@ void main() {
     int b = int.parse(data[1]);
 
     int quotient = a ~/ b;
+    
     print(quotient);
 
     
