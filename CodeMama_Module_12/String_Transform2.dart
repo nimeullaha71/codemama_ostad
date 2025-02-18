@@ -14,6 +14,7 @@ void main() {
     if (i + 2 < input.length ) {
       
       result += 'x';
+      
 
     }
   }
