@@ -5,7 +5,10 @@ bool isPalindrome(String s) {
   int right = s.length - 1;
 
   while (left < right) {
-    if (s[left] != s[right]) {
+
+    if (s[left] != s[right]) 
+    {
+
       return false;
     }
     left++;
