@@ -10,7 +10,9 @@ void main() {
     if ((i + 1) % 3 == 0) {
       result += input[i].toUpperCase();
     } else {
+
       result += input[i];
+      
     }
   }
   
